@@ -3,19 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"rel="stylesheet" 
-    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"crossorigin="anonymous">
+    <title>site bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"rel="stylesheet" integrity=
+    "sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <style>
+        #bg-image{
+            background-image: url(images/deco1.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 93vh;
+        }
+    </style>
 </head>
 <body>
+    <!--DEBUT NAVBAR-->
     <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
         <div class="container">
-            <a href="index.html" class="navbar-brand text-uppercase fw-bold">L 
+            <a href="index.html" class="navbar-brand text-uppercase text-primary fw-bold">L 
                 <span class="bg-primary bg-gradient p-1 rounded-3 text-light">inekode</span>
             </a>
-            <button class="navbar-toggler"type="button" data-bs-toggle="collapse"data-bs-target="
-                #navbarsupportedcontent"aria-controls="navbarsuportedcontent"aria-expanded="false"aria-label=
-                "toggle navigation">
+            <button class="navbar-toggler"type="button" data-bs-toggle="collapse"data-bs-target=" #navbarsupportedcontent"aria-controls="navbarsuportedcontent"aria-expanded="false"aria-label="toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarsupportedcontent">
@@ -28,6 +36,157 @@
             </div>
         </div>
     </nav>
+    <!--FIN NAVBAR-->
+    <br><br> 
+    <!--DEBUT ACCEUIL-->
+    <section class="container-fluid p-5 " id="bg-image">
+        <div class="row container p-5 d-flex justify-content-center align-content-center" style="height: 100vh;">
+            <div class="col-12 text-center mb-1">
+                <h1 class="text-danger"> Nos réseaux sociaux</h1>
+                <p class="text-dar fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, quasi?
+               Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel, quasi?</p>
+               <a href="#" class="btn btn-danger fw-bold">Voir plus</a>
+            </div>
+        </div>
+    </section>
+    <!--FIN ACCEUIL-->
+    <br><br>
+    <!--DEBUT A-PROPOS-->
+    <div class="container-fluid">
+        <div class=" container overflow-hidden border height-90vh shadow">
+            <div class="row md g-3 m-5">
+                <div class="col-6 fs-1 text-center height-100px mb-100px p-5">
+                    <i class='bx bx-expand-horizontal'></i>
+                </div>
+                <div class="col-6">
+                    <h1 class="fs-1">A PROPOS D MOI</h1>
+                    <h3 class="fs-3">devoloppeuse je suis</h3>
+                    <p class="fs-6"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                         Molestias impedit optio earum provident consequuntur eos cumque omnis harum .
+                    </p>
+                    <a href="#" class="btn btn-outline-dark">soumettre</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--DIN A-PROPOS-->
+    <br><br>
+<!--DEBUT SERVICES-->
+    <div class="container-fluid">
+        <div class="container overflow-hidden ">
+            <div id="Sevices">
+            <h1>IMPORTANCES</h1>
+            <div class="row g-2">
+                <div class="col-4">
+                    <div class="p-3 mt-2 border  text-dark  text-center shadow">
+                        <h1><i class='bx bxl-tiktok text-danger dg-dark' ></i> TikTok </h1>
+                        <p>TikTok est une application mobile de partage de courtes vidéos </p>
+                        <a href="#" class="btn btn-outline-dark">soumettre</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 mt-2 border  text-dark text-center shadow">
+                        <h1><i class='bx bxl-youtube text-danger bg-white'></i>YouTube</h1>
+                        <p>YouTube est un site web d'hébergement de vidéos et média social.</p>
+                        <a href="#" class="btn btn-outline-dark">soumettre</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 mt-2 border bg-white text-dark  text-center shadow">
+                        <h1><i class='bx bxl-gmail bg-danger text-white'></i> Gmail</h1>
+                        <p> Gmail est une boîte de d'envoi et de réception d'e-mails. Elle est d'usage profesionnel</p>
+                        <a href="#" class="btn btn-outline-dark">soumettre</a>
+                    </div>
+                </div>
+            </div>
+            <h1 class="m-2">AVANTAGES</h1>
+            <div class="row g-2">
+                <div class="col-4">
+                    <div class="p-3 mt-2 border  fs-10 text-center shadow">
+                        <h1 class="fs-2 text-primary">Les reseaux sociaux</h1>
+                        <p>IL désigne un site internet pour développer des interactions sociales. 
+                            LES les informations passent vite et a temps réel pour tout le monde.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">soumettre</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 mt-2 border bg-white   text-center shadow">
+                        <h1 class="text-primary"><i class='bx bxl-twitter bg-dark text-primary' ></i>Twitter</h1>
+                        <p class="text-bark">Twitter, est un réseau social de microblogage. Il permet d'envoyer des messages 
+                            appelés et twitter <br>autres<br>
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">soumettre</a>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="p-3 mt-2 border bg-white text-primary  text-center shadow"> 
+                        <h1> <i class='bx bxl-facebook-circle' ></i>Facebook</h1>
+                        <p class="text-dark">Il permet à ses utilisateurs de publier des images, des photos, des vidéos,
+                            des fichiers et documents, d'échanger des messages, de joindre et de créer
+                         </p>
+                        <a href="#" class="btn btn-outline-primary ">soumettre</a>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center m-3">CONTACTS</h1>
+            <div class="row g-2">
+                <div class="col-4">
+                    <div class=" mt-1 border  text-dark text-center shadow">
+                            <div>
+                                <h1 class="fs-3"><i class='bx bx-phone-call'></i> <br>Téléphone</h1>
+                            </div>
+                            <div>
+                                <p>+221 77 372 95 02</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class=" mt-1 border  text-dark  text-center shadow">
+                            <div>
+                                <h1 class="fs-3"><i class='bx bx-envelope'></i> <br>Email</h1>
+                            </div>
+                            <div>
+                                <p>salimataka23@gmail.com</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class=" mt-1 border  text-dark  text-center shadow">
+                            <div>
+                                <h1 class="fs-3"><i class='bx bx-home-alt'></i> <br> Addresse</h1>
+                            </div>
+                            <div>
+                                <p>Cité Boudiouc Villa 93</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            <h1 class="text-center m-3">CONTACTER PAR FORMULAIRE </h1>
+            <div class="row g-2">
+                <div class="col-4">
+                    <div class=" mt-1 border  text-dark  text-center shadow">
+                        <p class="mt-3">Votre nom complet</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class=" mt-1 border  text-dark text-center shadow">
+                        <p class="mt-3">Votre email</p>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class=" mt-1 border  text-dark  text-center shadow">
+                        <p class="mt-3">Votre numéro de téléphone</p>
+                    </div>
+                </div>
+                <textarea name="" id= "">Message</textarea>
+
+            </diV>
+            <a  href="#" class="btn btn-outline-success m-3 p-2">soumettre</a>
+
+
+           
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity=
     "sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
